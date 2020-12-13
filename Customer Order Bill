@@ -1,3 +1,12 @@
 float bill_amount , Charge, bill_Discount,String bill_type 
 FOR all the customers records remain
 read bill_type ,bill_amount
+IF bill_type = “ VIP ”
+ bill_Discount = 20;
+Print bill_Discount + “ Congratulations you got 20% discount ”
+ELSE
+bill_Discount = 10;
+print bill_Discount + “ Congratulations you got 10% discount”
+End IF
+End FOR 
+print “Over thank you”
