@@ -1,3 +1,8 @@
 float bill_amount , Charge, bill_Discount,String bill_type 
 FOR all the customers records remain
 read bill_type ,bill_amount
+IF (bill_amount <= 600 ) THEN
+Charge= 0.5 * bill_amount ;
+ELSE
+Charge= 0.8 * bill_amount ;
+END IF 
