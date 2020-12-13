@@ -1,0 +1,3 @@
+float bill_amount , Charge, bill_Discount,String bill_type 
+FOR all the customers records remain
+read bill_type ,bill_amount
